@@ -1,0 +1,16 @@
+.interest__container {
+  background-color: #282c34;
+  color: white;
+  padding: 2px 40px 2px 40px;
+}
+
+.interest__heading {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.interest__description {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
