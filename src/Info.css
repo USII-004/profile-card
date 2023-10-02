@@ -26,6 +26,10 @@ a {
   text-align: center;
 }
 
+span {
+  padding-left: .2rem;
+}
+
 .occupation {
   font-weight: 500;
   margin-top: 5px;
@@ -44,6 +48,8 @@ a {
   padding: 10px 20px;
   margin: 10px 20px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .info__btn__container {
@@ -58,6 +64,14 @@ a {
   color: black;
 }
 
+.btn__white:hover {
+  background-color: #999;
+}
+
 .btn__blue {
   background-color: lightskyblue;
+}
+
+.btn__blue:hover {
+  background-color: lightseagreen;
 }

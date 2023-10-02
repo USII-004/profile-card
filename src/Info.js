@@ -1,5 +1,8 @@
 import photo from './img/Usii_passport_L.jpg';
 import './Info.css';
+import {FaLinkedin} from "react-icons/fa6";
+import {FaEnvelope} from "react-icons/fa6";
+
 
 function Info() {
   return (
@@ -11,8 +14,11 @@ function Info() {
         <a href='#' className='twitter__handle'>@usman_smooth</a>
       </div>
       <div className='info__btn__container'>
-        <a href='#' className='btn btn__white'>Email</a>
-        <a href='#' className='btn btn__blue'>LinkedIn</a>
+        <a href='#' className='btn btn__white'>
+        <FaEnvelope /> <span>Email</span></a>
+        <a href='#' className='btn btn__blue'>
+        <FaLinkedin /> <span>LinkedIn</span>
+        </a>
       </div>
     </div>
 

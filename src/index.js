@@ -4,6 +4,7 @@ import './index.css';
 import Info from './Info'
 import About from './About'
 import Interest from './Interest';
+import Footer from './Footer'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
       <Info />
       <About />
       <Interest />
+      <Footer />
     </div>
     
   </React.StrictMode>
